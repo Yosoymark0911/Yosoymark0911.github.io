@@ -1,0 +1,8 @@
+I"�<h1 id="configuración">Configuración</h1>
+
+<p><code class="language-plaintext highlighter-rouge">typora-copy-images-to</code>: debe apuntar al directorio donde queremos pegar las imágenes.</p>
+
+<p><code class="language-plaintext highlighter-rouge">typora-root-url</code>: si la página se sirve desde un subdominio, entonces debe configurarse como <code class="language-plaintext highlighter-rouge">../</code> y <code class="language-plaintext highlighter-rouge">baseurl</code> en <code class="language-plaintext highlighter-rouge">config.yml</code> como /. Si se sirve desde un subdirectorio, entonces como <code class="language-plaintext highlighter-rouge">../../</code> y <code class="language-plaintext highlighter-rouge">baseurl</code> como <code class="language-plaintext highlighter-rouge">/nombre-del-subdirectorio</code></p>
+
+<p><img src="/assets/img/Captura de pantalla de 2021-10-08 19-06-21.png" alt="Captura de pantalla de 2021-10-08 19-06-21" /></p>
+:ET

@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ../assets/img/
+typora-copy-images-to: ./assets/img/
 typora-root-url: ../
 layout: post
 categories: 
@@ -16,7 +16,7 @@ title: Página_prueba
 
 **La respuesta es.....:**
 
-![Captura de pantalla de 2021-10-08 19-06-21](../assets/img/Captura de pantalla de 2021-10-08 19-06-21.png)
+![Captura de pantalla de 2021-10-08 19-06-21](./assets/img/Captura de pantalla de 2021-10-08 19-06-21.png)
 
 
 

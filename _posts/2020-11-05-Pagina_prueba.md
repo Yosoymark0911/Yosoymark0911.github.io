@@ -18,7 +18,7 @@ title: Página_prueba
 
 ![Captura de pantalla de 2021-10-08 19-06-21](/assets/img/Captura de pantalla de 2021-10-08 19-06-21.png)
 
-
+Lo siento pero yo no veo la imagen :(
 
 Imagen sin importancia de alguna asignatura....
 

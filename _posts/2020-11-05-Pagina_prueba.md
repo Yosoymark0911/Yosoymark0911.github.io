@@ -16,9 +16,9 @@ title: Página_prueba
 
 **La respuesta es.....:**
 
-![Captura de pantalla de 2021-10-08 19-06-21](/assets/img/Captura de pantalla de 2021-10-08 19-06-21.png)
+![Captura de pantalla de 2021-10-08 19-06-21](../assets/img/Captura de pantalla de 2021-10-08 19-06-21.png)
 
-Lo siento pero yo no veo la imagen :(
+Lo siento pero ya veo la imagen :)
 
 Imagen sin importancia de alguna asignatura....
 

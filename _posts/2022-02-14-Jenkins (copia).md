@@ -5,10 +5,10 @@ typora-root-url: ../
 layout: post
 categories: 
 conToc: true
-title: Maven
+title: Heroku
 ---
 
-# Práctica Maven
+# Práctica Heroku
 
 Primero de todo deberemos crear la siguiente estructura:
 

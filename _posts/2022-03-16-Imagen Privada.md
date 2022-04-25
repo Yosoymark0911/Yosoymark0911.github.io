@@ -40,7 +40,7 @@ Ahora crearemos el fichero .yaml:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello1
+  name: chapter2
   labels:
     app: nginx
 spec:
@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: PPP/hello1:v1
+        image: PPP/chapter2:v1
         ports:
         - containerPort: 80
       imagePullSecrets:

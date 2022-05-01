@@ -409,16 +409,20 @@ Total: 2 (UNKNOWN: 0, LOW: 0, MEDIUM: 1, HIGH: 1, CRITICAL: 0)
 
 ### Practica 3
 
-En la siguiente práctica primero deberemos crear una BOM el cual luego analizaremos con [DependencyTracker](https://yosoymark0911.github.io/2022/03/17/Dependecy-Track.html), para esto primero deberemos instalr [syft](https://github.com/anchore/syft/) y el [Grype](https://github.com/anchore/grype/) una vez con los programas instalados generaremos nuestro ficheros BOM, para ello deberemos ejecutar los siguientes comandos:
+En la siguiente práctica primero deberemos crear una BOM el cual luego analizaremos con [DependencyTracker](https://yosoymark0911.github.io/2022/03/17/Dependecy-Track.html), para esto primero deberemos instalar [syft](https://github.com/anchore/syft/) y el [Grype](https://github.com/anchore/grype/) una vez con los programas instalados generaremos nuestro fichero BOM, para ello deberemos ejecutar los siguientes comandos:
 
 ```bash
 syft wordpressweb/boats -o cyclonedx-json > Syft-BOM
 ```
 
+Primero lo escanearemos con Grype
+
 ```bash
-grype wordpressweb/boats -o cyclonedx > grype-bom 
+grype sbom:Syft-BOM
 ```
 
-Y ahora pasaremos estos ficheros por el DependecyTraker:
+![image-20220501135907612](/assets/img/image-20220501135907612.png)
 
-![image-20220428175352523](/assets/img/image-20220428175352523.png)
+Y ahora escanearemos el mismo fichero con DependecyTracker:
+
+![image-20220501140438122](/assets/img/image-20220501140438122.png)	

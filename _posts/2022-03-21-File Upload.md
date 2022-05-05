@@ -207,7 +207,7 @@ function printit ($string) {
 
 Una vez lo tengamos iniciaremos sesión en DVWA iremos a File Upload y subiremos el fichero .php
 
-![image-20220505170926443](../assets/img/image-20220505170926443.png)
+![image-20220505170926443](/assets/img/image-20220505170926443.png)
 
 
 
@@ -226,4 +226,4 @@ localhost/hackable/uploads/php-reverse-shell.php
 Y como podemos observar en nuestra terminal:
 
 
-![image-20220505171122576](../assets/img/image-20220505171122576.png)
+![image-20220505171122576](/assets/img/image-20220505171122576.png)
